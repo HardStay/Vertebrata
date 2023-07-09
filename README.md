@@ -9,23 +9,37 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ,"vmArgs": " -Dprism.maxvram=500m -Dprism.order=j2d -Djavafx.animation.fullspeed=true -Dprism.poolstats=true -Xmx8G -ea"
 
 contohnya 
+
 {
-      "type": "java",
+
+	"type": "java",
+ 
       "name": "MainLogin",
+      
       "request": "launch",
+      
       "mainClass": "login.MainLogin",
+      
       "projectName": "wildshield_a6359276",
+      
 }
 
 jadi 
 
 {
+
       "type": "java",
+      
       "name": "MainLogin",
+      
       "request": "launch",
+      
       "mainClass": "login.MainLogin",
+      
       "projectName": "wildshield_a6359276",
+      
       "vmArgs": " -Dprism.maxvram=500m -Dprism.order=j2d -Djavafx.animation.fullspeed=true -Dprism.poolstats=true -Xmx8G -ea"
+      
 }
 
 
