@@ -3,6 +3,9 @@
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
+di folder .vscode tambahkan code berikut.
+,"vmArgs": " -Dprism.maxvram=500m -Dprism.order=j2d -Djavafx.animation.fullspeed=true -Dprism.poolstats=true -Xmx8G -ea"
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
