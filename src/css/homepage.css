@@ -1,0 +1,14 @@
+.headanchorpane-lapor {
+  -fx-background-color: #ffffff;
+}
+
+.button {
+  -fx-background-color: #ffffff;
+}
+
+.button:hover {
+  -fx-background-color: #adadad;
+}
+.body-anchorpanelapor {
+  -fx-background-color: #ffffff;
+}

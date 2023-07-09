@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="1068.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="1068.0" styleClass="body-tableview" stylesheets="@../../../css/verifPenggalangandana.css">
+         <columns>
+            <TableColumn prefWidth="197.3333181142807" text="Tujuan Penggalangan Dana&#10;" />
+            <TableColumn minWidth="4.5" prefWidth="207.33335876464844" text="Deskripsi" />
+            <TableColumn prefWidth="151.99990844726562" text="No.Rekening " />
+            <TableColumn prefWidth="247.3333740234375" text="Dokumen Perencanaan Kegiatan" />
+            <TableColumn prefWidth="265.33319091796875" text="Lampiran" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

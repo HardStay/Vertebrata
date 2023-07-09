@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox id="container" fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMousePressed="#click" prefHeight="90.0" prefWidth="955.0" stylesheets="@../../css/samplelabel.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiplescene.edukasi.samplelabelController">
+   <children>
+      <ImageView fx:id="imageEdukasi" fitHeight="91.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/WildShield/wildshield/src/logo/burung.jpg" />
+         </image>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin></ImageView>
+      <VBox prefHeight="90.0" prefWidth="835.0">
+         <children>
+            <Label fx:id="judul" prefHeight="51.0" prefWidth="817.0" text="Leluhur Papua Membiakkan Burung Kasuari Sejak Zaman Pleistosen" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="content" prefHeight="40.0" prefWidth="819.0" text="Nationalgeographic.co.id—Pegunungan Papua Nugini menyajikan studi kasus penting untuk mengklarifikasi dampak pemburu pada lanskap hutan selama rentang waktu yang diperpanjang.Manusia telah mencapai wilayah tersebut setidaknya 42.000 tahun yang lalu, dan penyebaran manusia awal termasuk cepat dalam eksplorasi lingkungan pegunungan." wrapText="true">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin></Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>

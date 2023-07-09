@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "MainLogin",
+      "request": "launch",
+      "mainClass": "login.MainLogin",
+      "projectName": "wildshield_a6359276",
+      "vmArgs": " -Dprism.maxvram=500m -Dprism.order=j2d -Djavafx.animation.fullspeed=true -Dprism.poolstats=true -Xmx8G -ea"
+      // -Djavafx.animation.fullspeed=true -Dprism.poolstats=true -Dprism.order=sw -Xmx1024m Dprism.verbose=true
+    }
+  ]
+}

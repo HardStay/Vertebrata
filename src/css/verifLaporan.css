@@ -1,0 +1,63 @@
+.head {
+  -fx-background-color: #ffffff;
+}
+.body-tableview {
+  -fx-background-color: #7db0a9;
+}
+
+#buttonTolak {
+  -fx-font-family: "Cooper Black";
+  -fx-text-fill: #ffffff;
+  background-color: #af7440;
+  -fx-background-color: #af7440;
+}
+#buttonTolak:hover {
+  background-color: #ea8b95;
+  -fx-background-color: #ea8b95;
+}
+#buttonTolak:pressed {
+  background-color: #56240b;
+  -fx-background-color: #56240b;
+}
+#buttonRemove {
+  -fx-font-family: "Cooper Black";
+  -fx-text-fill: #ffffff;
+  background-color: #af4040;
+  -fx-background-color: #af4040;
+}
+#buttonRemove:hover {
+  background-color: #ea8b95;
+  -fx-background-color: #ea8b95;
+}
+#buttonRemove:pressed {
+  background-color: #560b13;
+  -fx-background-color: #560b13;
+}
+#buttonTerima {
+  -fx-font-family: "Cooper Black";
+  -fx-text-fill: #ffffff;
+  background-color: #0e904b;
+  -fx-background-color: #0e904b;
+}
+#buttonTerima:hover {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+}
+#buttonTerima:pressed {
+  background-color: #09571c;
+  -fx-background-color: #09571c;
+}
+#buttonSelesai {
+  -fx-font-family: "Cooper Black";
+  -fx-text-fill: #ffffff;
+  background-color: #0e907c;
+  -fx-background-color: #0e907c;
+}
+#buttonSelesai:hover {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+}
+#buttonSelesai:pressed {
+  background-color: #09574b;
+  -fx-background-color: #09574b;
+}

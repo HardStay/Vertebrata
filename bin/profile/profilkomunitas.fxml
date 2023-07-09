@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: #49796b;" stylesheets="@../css/profil.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="profile.ProfilKomunitasController">
+   <children>
+      <Pane layoutX="52.0" layoutY="49.0" prefHeight="550.0" prefWidth="1100.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="219.0" fitWidth="341.0" layoutX="58.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo/komunitas1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="219.0" fitWidth="341.0" layoutX="386.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo/komunitas3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="219.0" fitWidth="341.0" layoutX="713.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo/komunitas2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="131.0" layoutX="97.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo/crowd-of-users.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="241.0" layoutY="275.0" prefHeight="31.0" prefWidth="121.0" text="Nama Komunitas     ">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label layoutX="242.0" layoutY="325.0" prefHeight="31.0" prefWidth="146.0" text="Alamat">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label layoutX="242.0" layoutY="306.0" text="Username">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label layoutX="241.0" layoutY="394.0" text="No. Handpone">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label layoutX="360.0" layoutY="276.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="labelAlamat" layoutX="418.0" layoutY="328.0" prefHeight="34.0" prefWidth="582.0" text="Jln. Pundung - Towangsan, Dk. Titang 15/06, Tawangsari, Gantiwarno, Klaten, Jawa Tengah 57455" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="labelUsername" layoutX="419.0" layoutY="306.0" prefHeight="10.0" prefWidth="327.0" text="Mongabay45">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Label fx:id="labelNoHp" layoutX="419.0" layoutY="394.0" prefHeight="20.0" prefWidth="575.0" text="085888422251">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Label>
+            <Button layoutX="967.0" layoutY="494.0" mnemonicParsing="false" onAction="#handleButtonLogOut" prefHeight="37.0" prefWidth="110.0" style="-fx-background-radius: 10;" text="Log Out">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo/logouthitam.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold Italic" size="14.0" />
+               </font></Button>
+            <Label layoutX="402.0" layoutY="279.0" text=":">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="402.0" layoutY="331.0" text=":">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="402.0" layoutY="304.0" text=":">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="402.0" layoutY="392.0" text=":">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="labelNama" layoutX="418.0" layoutY="281.0" prefHeight="16.0" prefWidth="327.0" text="Mongabay Community">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="369.0" prefHeight="17.0" prefWidth="103.0" text="Jumlah Anggota">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelJumlahAnggota" layoutX="419.0" layoutY="370.0" prefHeight="16.0" prefWidth="569.0" text="500 orang">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="402.0" layoutY="368.0" text=":">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="27.0" layoutY="495.0" mnemonicParsing="false" onAction="#handleButtonBack" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 10;" text="Kembali">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo/back-button.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+.button {
+  -fx-font-family: "Cooper Black";
+  background-color: #0e907c;
+  -fx-background-color: #0e907c;
+}
+.button:hover {
+  background-color: #09574b;
+  -fx-background-color: #09574b;
+}
+.button:pressed {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+}
+.button:focused {
+  background-color: #50786d;
+  -fx-background-color: #50786d;
+}
+#buttonLogOut {
+  -fx-font-family: "Cooper Black";
+  background-color: #ffffff;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #d01c22;
+  -fx-border-width: 2px;
+  -fx-transition-duration: 0.3s;
+}
+#buttonLogOut:hover {
+  background-color: #bb1414;
+  -fx-background-color: #bb1414;
+  -fx-text-fill: #ffffff;
+}
+#buttonLogOut:pressed {
+  background-color: #ffffff;
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #000000;
+}
+.body-anchorpanestatus {
+  -fx-background-color: #345149;
+}

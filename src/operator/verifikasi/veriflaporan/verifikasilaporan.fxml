@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="1068.0" stylesheets="@../../../css/verifLaporan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="operator.verifikasi.veriflaporan.VerifikasiLaporanController">
+   <children>
+      <TableView fx:id="table" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="1068.0" styleClass="body-tableview">
+         <columns>
+            <TableColumn fx:id="kolomNo" prefWidth="45.333314299583435" text="No" />
+            <TableColumn fx:id="kolomNama" prefWidth="137.33337783813477" text="Nama Pelapor" />
+            <TableColumn fx:id="kolomJenis" prefWidth="130.66661071777344" text="Jenis Laporan" />
+            <TableColumn fx:id="kolomTanggal" prefWidth="132.0001220703125" text="Tanggal" />
+            <TableColumn fx:id="kolomBukti" prefWidth="118.00003051757812" text="Bukti" />
+            <TableColumn fx:id="kolomDeskripsi" prefWidth="228.6666259765625" text="Deskripsi" />
+            <TableColumn prefWidth="122.0" text="Lokasi">
+               <columns>
+                  <TableColumn fx:id="kolomLongitude" prefWidth="72.0" text="Longitude" />
+                  <TableColumn fx:id="kolomLatitude" prefWidth="77.3333740234375" text="Latitude" />
+               </columns></TableColumn>
+            <TableColumn fx:id="kolomStatus" minWidth="0.0" prefWidth="122.66668701171875" text="Status Laporan" />
+         </columns>
+      </TableView>
+      <TextField fx:id="fieldNo" layoutX="469.0" layoutY="425.0" promptText="Masukkan No Data" />
+      <Button id="buttonTolak" layoutX="396.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleButtonTolak" text="Tolak" textFill="WHITE" />
+      <Button id="buttonTerima" layoutX="642.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleButtonTerima" text="Terima" textFill="WHITE" />
+      <Button id="buttonSelesai" layoutX="708.0" layoutY="424.0" mnemonicParsing="false" onAction="#handleButtonSelesai" text="Selesai" textFill="WHITE" />
+      <Button id="buttonRemove" layoutX="325.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleButtonRemove" text="Remove" textFill="WHITE" />
+   </children>
+</AnchorPane>

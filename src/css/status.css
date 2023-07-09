@@ -1,0 +1,25 @@
+.button {
+    background-color: #1a4841;
+    -fx-background-color: #1a4841;
+  }
+  .button:hover {
+    background-color: #84debd;
+    -fx-background-color: #84debd;
+  }
+  .button:pressed {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #161515
+  }
+  .button:focused {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #161515
+  }
+  .body-anchorpanestatus {
+    -fx-background-color: #ffffff;
+  }
+  
+ 
+  
+ 

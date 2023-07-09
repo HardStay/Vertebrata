@@ -1,0 +1,26 @@
+.head {
+    -fx-background-color: #ffffff;
+}
+.body-tableview{
+    -fx-background-color: #579781
+}
+.button {
+    -fx-font-family: "berlin sans";
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+}
+.button:hover {
+    background-color: #adadad;
+    -fx-background-color: #adadad;
+    ;
+  }
+.button1:hover {
+    background-color: #0eb3d7;
+    -fx-background-color: #0eb3d7;
+    ;
+  }
+  .button1 {
+    -fx-font-family: "berlin sans";
+    background-color: #016e87;
+    -fx-background-color: #016e87;
+  }

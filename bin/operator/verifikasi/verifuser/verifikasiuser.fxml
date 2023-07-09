@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="467.0" prefWidth="1068.0" styleClass="body-anchorpanelapor" stylesheets="@../../../css/verifikasiuser.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="TV" prefHeight="467.0" prefWidth="1068.0" styleClass="body-tableview">
+         <columns>
+            <TableColumn fx:id="Column1" prefWidth="150.66668701171875" text="Nama" />
+            <TableColumn prefWidth="139.99993896484375" text="No. Handphone" />
+            <TableColumn prefWidth="135.3333740234375" text="Username" />
+            <TableColumn prefWidth="124.0001220703125" text="Password" />
+            <TableColumn prefWidth="252.6666259765625" text="Foto Wajah" />
+            <TableColumn prefWidth="265.3333740234375" text="Foto KTP" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

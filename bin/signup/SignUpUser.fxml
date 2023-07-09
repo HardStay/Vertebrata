@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" stylesheets="@../css/signupuser.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="signup.SignUpUserController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="682.0" prefWidth="1203.0">
+         <children>
+            <AnchorPane layoutX="-10.0" layoutY="-11.0" prefHeight="652.0" prefWidth="452.0" style="-fx-background-color: #345149;">
+               <children>
+                  <ImageView fitHeight="395.0" fitWidth="391.0" layoutX="25.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo/logosignupuser.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="136.0" fitWidth="206.0" layoutX="123.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../logo/logo%20WildShield.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="usernamePendaftar" layoutX="794.0" layoutY="294.0" prefHeight="40.0" prefWidth="272.0" promptText="Username" style="-fx-background-color: #dee0e0;" />
+      <TextField fx:id="passPendaftar" layoutX="794.0" layoutY="347.0" prefHeight="40.0" prefWidth="272.0" promptText="Password" style="-fx-background-color: #dee0e0;" />
+      <RadioButton fx:id="rButtonLaki" layoutX="794.0" layoutY="393.0" mnemonicParsing="false" onAction="#handleButtonRadio" text="Laki - Laki" textFill="#345149">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="jenis" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rButtonPerempuan" layoutX="930.0" layoutY="393.0" mnemonicParsing="false" onAction="#handleButtonRadio" text="Perempuan" textFill="#345149" toggleGroup="$jenis">
+         <font>
+            <Font name="Cooper Black" size="18.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="ttl" layoutX="794.0" layoutY="242.0" prefHeight="40.0" prefWidth="272.0" promptText="Tempat/Tanggal Lahir" style="-fx-background-color: #dee0e0;" />
+      <TextField fx:id="namaPendaftar" layoutX="794.0" layoutY="190.0" prefHeight="40.0" prefWidth="272.0" promptText="Nama" style="-fx-background-color: #dee0e0;" />
+      <Button fx:id="registerUser" layoutX="962.0" layoutY="468.0" mnemonicParsing="false" onAction="#handleButtonRegisterUser" prefHeight="30.0" prefWidth="105.0" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Cooper Black" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="541.0" layoutY="199.0" prefHeight="37.0" prefWidth="69.0" text="Nama" textFill="#345149">
+         <font>
+            <Font name="Cooper Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="245.0" prefHeight="34.0" prefWidth="244.0" text="Tempat/Tanggal Lahir" textFill="#345149" wrapText="true">
+         <font>
+            <Font name="Cooper Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="302.0" text="Username" textFill="#345149">
+         <font>
+            <Font name="Cooper Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="347.0" text="Password" textFill="#345149">
+         <font>
+            <Font name="Cooper Black" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="621.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create your account" wrappingWidth="346.95318603515625">
+         <font>
+            <Font name="Cooper Black" size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

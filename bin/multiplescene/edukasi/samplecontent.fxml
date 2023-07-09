@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiplescene.edukasi.samplecontentController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="562.0" prefWidth="1051.0">
+         <content>
+            <VBox prefHeight="1308.0" prefWidth="1051.0" style="-fx-background-color: #586e68;">
+               <children>
+                  <ImageView fx:id="imageContent" fitHeight="250.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="415.0" top="10.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../../logo/burung.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelJudul" prefHeight="111.0" prefWidth="1031.0" text="Leluhur Papua Membiakkan Burung Kasuari Sejak Zaman Pleistosen" textFill="#e2ff00" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="labelContent" alignment="TOP_LEFT" prefHeight="837.0" prefWidth="1011.0" text="pengangkutan ubi dari pantai, pembakaran hutan, perburuan marsupial, dan produksi kapak batu besar.Studi genomik manusia modern menunjukkan populasi Pleistosen yang sering mengunjungi zona dataran tinggi berjumlah beberapa ratus atau ribuan orang. Populasi ini relatif stabil sampai akhir Zaman Es terakhir ketika populasi meningkat pesat, dengan masyarakat pegunungan menjadi relatif terisolasi dari dataran rendah pada awal periode Holosen.Meskipun ada bukti bahwa manusia berbagi zona pegunungan dengan megafauna, termasuk kanguru raksasa, wombat raksasa, harimau Tasmania, dan kasuari selama beberapa milenium, tidak jelas sejauh mana spesies ini menjadi fokus perburuan awal.“Kami menyelidiki bagaimana pemburu-pengumpul hutan hujan mengelola sumber daya di pegunungan Papua Nugini dan menyajikan beberapa dokumentasi awal Pleistosen Akhir melalui eksploitasi kasuari pertengahan Holosen,” kata antropolog Universitas Negeri Pennsylvania, Kristina Douglass dan rekan-rekannya. dikutip dari jurnal Prosiding National Academy of Sciences.Pertama, para peneliti mengembangkan metode baru untuk menentukan berapa umur embrio ayam ketika telur dipanen.“Saya telah meneliti kulit telur dari situs arkeologi selama bertahun-tahun,” jelas Dr. Douglass.“Saya menemukan penelitian tentang kulit telur kalkun yang menunjukkan perubahan kulit telur selama perkembangan yang merupakan indikasi usia. Saya memutuskan ini akan menjadi pendekatan yang berguna.”Para ilmuwan kemudian beralih ke koleksi kulit telur warisan dari dua situs —Yuku dan Kiowa—di Papua Nugini.“Situs-situs ini melestarikan urutan zooarkeologi yang memungkinkan kita untuk memeriksa dinamika temporal perburuan dan pemusnahan fauna,” kata mereka." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</VBox>

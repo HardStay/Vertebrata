@@ -1,0 +1,48 @@
+.headanchorpane-lapor {
+  -fx-background-color: #345149;
+}
+
+.body-anchorpane {
+  -fx-background-color: #164289;
+}
+
+.button {
+  -fx-font-family: "futura md bt";
+  background-color: #0e907c;
+  -fx-background-color: #0e907c;
+}
+.button:hover {
+  background-color: #09574b;
+  -fx-background-color: #09574b;
+}
+.button:pressed {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+}
+.button:focused {
+  background-color: #50786d;
+  -fx-background-color: #50786d;
+}
+#buttonlogOut {
+  -fx-font-family: "futura md bt";
+  background-color: #ffffff;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #d01c22;
+  -fx-border-width: 3px;
+  -fx-text-fill: #161515;
+  -fx-transition-duration: 0.3s;
+}
+#buttonlogOut:hover {
+  background-color: #d01c22;
+  -fx-background-color: #d01c22;
+  -fx-text-fill: #ffffff;
+  -fx-transition-duration: 0.3s;
+}
+#buttonlogOut:pressed {
+  background-color: #ffffff;
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #161515;
+}
+.body-anchorpanestatus {
+  -fx-background-color: #345149;
+}

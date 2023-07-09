@@ -1,0 +1,13 @@
+.button {
+  -fx-font-family: "Cooper Black";
+  background-color: #0e907c;
+  -fx-background-color: #0e907c;
+}
+.button:hover {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+}
+.button:pressed {
+  background-color: #09574b;
+  -fx-background-color: #09574b;
+}

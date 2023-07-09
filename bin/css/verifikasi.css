@@ -1,0 +1,25 @@
+.headanchorpane {
+  -fx-background-color: #c1c9c6;
+}
+#buttonverif {
+  -fx-font-family: "futura md bt";
+  background-color: #18655a;
+  -fx-background-color: #18655a;
+}
+#buttonverif:hover {
+  background-color: #09574b;
+  -fx-background-color: #09574b;
+}
+#buttonverif:pressed {
+  background-color: #b0edd7;
+  -fx-background-color: #b0edd7;
+  -fx-text-fill: #161515;
+}
+#buttonverif:focused {
+  background-color: #c1c9c6;
+  -fx-background-color: #c1c9c6;
+  -fx-text-fill: #161515;
+}
+.body-anchorpanestatus {
+  -fx-background-color: #345149;
+}

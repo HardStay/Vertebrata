@@ -1,0 +1,15 @@
+.headanchorpane-lapor {
+    -fx-background-color: #0E2954;
+}
+
+Button {
+    -fx-font-family: "Arial";
+    -fx-background-color: #0e907c;
+}
+
+.button:hover{
+    -fx-background-color: #6de6f1;
+}
+.body-anchorpanelapor{
+    -fx-background-color: #164289;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1068.0" styleClass="body-tableview" stylesheets="@../../css/uploadeduwild.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="operator.eduwild.EduWildController">
+   <children>
+      <ImageView fitHeight="205.0" fitWidth="1068.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../logo/operatorUtil.jpg" />
+         </image></ImageView>
+      <Label layoutX="85.0" layoutY="225.0" text="Judul Konten" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="292.0" text="Deskripsi" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="467.0" text="Tambahkan Gambar" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldJudul" layoutX="415.0" layoutY="219.0" prefHeight="38.0" prefWidth="453.0" promptText="Masukkan Judul " />
+      <Button fx:id="pilihFile" layoutX="415.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleButtonPilihFile" prefHeight="40.0" prefWidth="144.0" style="-fx-background-radius: 10;" text="Pilih File">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../logo/uploadEduWild.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="724.0" layoutY="461.0" mnemonicParsing="false" onAction="#handleButtonUpload" prefHeight="38.0" prefWidth="144.0" style="-fx-background-radius: 10;" styleClass="button1" text="UPLOAD" textFill="WHITE" />
+      <Label fx:id="labelFile" layoutX="415.0" layoutY="504.0" text="Tambahkan Gambar" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="fieldDeskripsi" layoutX="415.0" layoutY="286.0" prefHeight="163.0" prefWidth="453.0" promptText="Masukkan Deskripsi" wrapText="true" />
+   </children>
+</AnchorPane>
