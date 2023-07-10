@@ -42,7 +42,9 @@ jadi
       
 }
 
+## Link Demo
 
+https://www.canva.com/design/DAFoM5T3nuA/PhPb1xixJKXtCQXB5_UbpQ/edit?utm_content=DAFoM5T3nuA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Folder Structure
 
